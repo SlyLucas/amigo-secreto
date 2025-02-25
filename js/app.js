@@ -5,6 +5,7 @@ function adicionar() {
     if (lista.textContent == '') {
         lista.textContent = amigo.Value;
     } else {
-        lista.textContent = lista.textContent + ', ' + amigo.Value
+        lista.textContent = lista.textContent + ', ' + amigo.Value;
     }
+    amigo.value = '';
 }
