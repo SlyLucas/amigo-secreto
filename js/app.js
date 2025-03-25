@@ -14,10 +14,7 @@ function adicionar() {
 
     let lista = document.getElementById('lista-amigos');
 
-    if (amigos.includes(amigo.value)) {
-        alert('Esse nome já está adicionado!');
-        return;
-    }
+    amigos.push(amigo.value);
 
     if (lista.textContent == '') {
         lista.textContent = amigo.value;
